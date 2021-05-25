@@ -6,6 +6,7 @@
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
   --primary-orange: #f9ab00;
+  --primary-blue: rgb(128, 108, 219);
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
@@ -71,7 +72,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(wall-and-laptop-background.jpg) no-repeat;
+  background: url(development-site-synthwave-5k-ne.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -92,7 +93,7 @@ nav ul li {
 }
 
 .main-info h1 {
-  color: var(--primary-orange);
+  color: var(--primary-blue);
   text-transform: uppercase;
 }
 
@@ -142,7 +143,7 @@ nav ul li {
 
 .btn-main-translate:hover {
   text-decoration: none;
-  background-color: rgb(163, 163, 50);
+  background-color: rgb(192, 192, 59);
   transition: 0.2s ease-in-out;
 }
 
@@ -187,11 +188,11 @@ nav ul li {
   width: 16rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 1px solid var(--primary-orange);
+  border: 1px solid rgb(93, 31, 93);
 }
 
 .about-heading {
-  color: var(--primary-orange);
+  color: rgb(93, 31, 93);
   text-transform: uppercase;
 }
 
@@ -271,7 +272,7 @@ nav ul li {
 
 .experience h1 {
   text-transform: uppercase;
-  color: var(--primary-orange);
+  color: rgb(45, 104, 45);
 }
 
 .experience-wrapper::before {
@@ -321,7 +322,7 @@ nav ul li {
 
 .timeline-content h3 {
   margin-top: 0.3125rem;
-  color: var(--primary-red);
+  color: rgb(32, 31, 31);
   font-weight: 900;
 }
 
@@ -354,12 +355,12 @@ nav ul li {
 }
 
 .portfolio-wrapper h1 {
-  color: var(--primary-orange);
+  color: rgb(206, 39, 39);
 }
 
 .portfolio-image {
   width: 15rem;
-  border: 1px solid var(--primary-orange);
+  border: 1px solid rgb(206, 39, 39);
   padding: 0 0.5rem;
 }
 
@@ -390,7 +391,7 @@ nav ul li {
   opacity: 0;
   margin-left: -8rem;
   margin-top: 3.6rem;
-  color: var(--primary-orange);
+  color: rgb(209, 92, 92);
   font-size: 1.5rem;
 }
 
@@ -456,7 +457,7 @@ nav ul li {
 }
 
 .testimonials h1 {
-  color: var(--primary-orange);
+  color: rgb(118, 199, 191);
   padding: 3rem 0;
   text-transform: uppercase;
 }
@@ -483,7 +484,7 @@ nav ul li {
 }
 
 .myCarousel h3 {
-  color: var(--primary-orange);
+  color: rgb(118, 199, 191);
   font-weight: 600;
   text-transform: uppercase;
 }

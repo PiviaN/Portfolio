@@ -22,17 +22,17 @@ function App() {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 45,
               density: {
                 enable: true,
-                value_area: 900,
+                value_area: 1400,
               },
             },
             shape: {
-              type: "circle",
+              type: "triangle",
               stroke: {
-                width: 6,
-                color: "#f9ab00",
+                width: 4,
+                color: "#707070",
               },
             },
           },
