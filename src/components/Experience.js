@@ -22,7 +22,13 @@ const Experience = ({ translate }) => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>12/2022 - Until now &#40;Olik&#41;</h3>
+            <h3
+              dangerouslySetInnerHTML={{
+                __html: translate
+                  ? "12/2022 - Atualmente"
+                  : "12/2022 - Until now",
+              }}
+            ></h3>
             <p
               dangerouslySetInnerHTML={{
                 __html: translate
