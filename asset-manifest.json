@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.8fbf0e1a.chunk.css",
+    "main.js": "/Portfolio/static/js/main.d14740c1.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.d14740c1.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.6efdc8da.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6efdc8da.js.map",
+    "static/css/2.fa5fdaca.chunk.css": "/Portfolio/static/css/2.fa5fdaca.chunk.css",
+    "static/js/2.5653c497.chunk.js": "/Portfolio/static/js/2.5653c497.chunk.js",
+    "static/js/2.5653c497.chunk.js.map": "/Portfolio/static/js/2.5653c497.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.fa5fdaca.chunk.css.map": "/Portfolio/static/css/2.fa5fdaca.chunk.css.map",
+    "static/css/main.8fbf0e1a.chunk.css.map": "/Portfolio/static/css/main.8fbf0e1a.chunk.css.map",
+    "static/js/2.5653c497.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5653c497.chunk.js.LICENSE.txt",
+    "static/media/Chat-App.0b582339.png": "/Portfolio/static/media/Chat-App.0b582339.png",
+    "static/media/Infusion_Homepage.873e4bf8.png": "/Portfolio/static/media/Infusion_Homepage.873e4bf8.png",
+    "static/media/Open-News-LandingPage.a2f5b5d3.png": "/Portfolio/static/media/Open-News-LandingPage.a2f5b5d3.png",
+    "static/media/arc-landingpage.338f5b00.png": "/Portfolio/static/media/arc-landingpage.338f5b00.png",
+    "static/media/avatar-3.d6c9b46f.png": "/Portfolio/static/media/avatar-3.d6c9b46f.png",
+    "static/media/avatar-4.f7fb7ed7.png": "/Portfolio/static/media/avatar-4.f7fb7ed7.png",
+    "static/media/avatarCabral.24a93199.jpg": "/Portfolio/static/media/avatarCabral.24a93199.jpg",
+    "static/media/avatarMario.a20c78d5.jpg": "/Portfolio/static/media/avatarMario.a20c78d5.jpg",
+    "static/media/App.css": "/Portfolio/static/media/testimonials-bg.75612be7.jpg",
+    "static/media/ecommerce-landingpage.c40e700d.png": "/Portfolio/static/media/ecommerce-landingpage.c40e700d.png",
+    "static/media/me.c4033baa.jpg": "/Portfolio/static/media/me.c4033baa.jpg",
+    "static/media/quiz-page.c1b09b55.png": "/Portfolio/static/media/quiz-page.c1b09b55.png",
+    "static/media/serasa-tela.eb9244da.png": "/Portfolio/static/media/serasa-tela.eb9244da.png",
+    "static/media/todo-homepage.414977bf.png": "/Portfolio/static/media/todo-homepage.414977bf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6efdc8da.js",
+    "static/css/2.fa5fdaca.chunk.css",
+    "static/js/2.5653c497.chunk.js",
+    "static/css/main.8fbf0e1a.chunk.css",
+    "static/js/main.d14740c1.chunk.js"
+  ]
+}
