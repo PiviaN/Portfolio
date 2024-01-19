@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import { useState } from "react";
 
 function App() {
-  const [translate, setTranslate] = useState(false);
+  const [translate, setTranslate] = useState(true);
 
   return (
     <>
