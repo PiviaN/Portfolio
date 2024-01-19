@@ -27,18 +27,18 @@ const Navbar = ({ translate }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link smooth={true} to="home" className="nav-link" href="#">
+              <Link smooth="true" to="home" className="nav-link" href="#">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="about" offset={-110} className="nav-link">
+              <Link smooth="true" to="about" offset={-110} className="nav-link">
                 {translate ? "sobre mim" : "about me"}
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                smooth={true}
+                smooth="true"
                 to="services"
                 offset={-110}
                 className="nav-link"
@@ -49,7 +49,7 @@ const Navbar = ({ translate }) => {
             </li>
             <li className="nav-item">
               <Link
-                smooth={true}
+                smooth="true"
                 to="experience"
                 offset={-110}
                 className="nav-link"
@@ -59,7 +59,7 @@ const Navbar = ({ translate }) => {
             </li>
             <li className="nav-item">
               <Link
-                smooth={true}
+                smooth="true"
                 to="portfolio"
                 offset={-110}
                 className="nav-link"
@@ -70,7 +70,7 @@ const Navbar = ({ translate }) => {
 
             <li className="nav-item">
               <Link
-                smooth={true}
+                smooth="true"
                 to="testimonials"
                 offset={-110}
                 className="nav-link"

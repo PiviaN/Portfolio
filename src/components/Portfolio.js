@@ -1,5 +1,6 @@
 import React from "react";
 import arcDevelopment from "../images/arc-landingpage.png";
+import serasa from "../images/serasa-tela.png";
 import quizPage from "../images/quiz-page.png";
 import openNews from "../images/Open-News-LandingPage.png";
 import chatApp from "../images/Chat-App.png";
@@ -14,8 +15,41 @@ import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
 
 const Pofrfolio = ({ translate }) => {
-  // Netflix
-  const openPopupboxNetflix = () => {
+  const openPopupboxSerasa = () => {
+    const content = (
+      <>
+        <img
+          className="portfolio-image-popupbox"
+          src={serasa}
+          alt="Serasa Project"
+        />
+        <p className="mt-3">
+          {translate
+            ? "Um fluxo inteiro de contratação de seguro do cliente Serasa feito por mim e meus companheiros de equipe. "
+            : "An entire insurance contracting flow for the Serasa client done by me and my teammates. "}
+          <a
+            className="hyper-link"
+            href="https://olik.com.br/bolso-protegido/"
+            rel="noreferrer"
+          >
+            Seguro Bolso Protegido - Serasa
+          </a>
+        </p>
+        <b>{translate ? "Demonstração: " : "Demo: "}</b>
+        <a
+          className="hyper-link"
+          href="https://olik.com.br/bolso-protegido/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          https://olik.com.br/bolso-protegido/
+        </a>
+      </>
+    );
+    PopupboxManager.open({ content });
+  };
+
+  const openPopupboxMaterial = () => {
     const content = (
       <>
         <img
@@ -23,7 +57,7 @@ const Pofrfolio = ({ translate }) => {
           src={arcDevelopment}
           alt="Arc Development Project"
         />
-        <p>
+        <p className="mt-3">
           {translate
             ? "Um projeto Material-UI feito no curso "
             : " A Material-UI project made in the "}
@@ -69,7 +103,7 @@ const Pofrfolio = ({ translate }) => {
           src={quizPage}
           alt="City Guide App Project..."
         />
-        <p>
+        <p className="mt-3">
           {translate
             ? "Este é um game de perguntas e repostas, onde você pode alcançar uma pontuação ao terminá-lo."
             : " This is a mini question-and-answer game where you can reach a score by completing it."}
@@ -98,7 +132,7 @@ const Pofrfolio = ({ translate }) => {
           src={openNews}
           alt="Portfolio Project..."
         />
-        <p>
+        <p className="mt-3">
           {translate
             ? "Este é um site de notícias aberto ao usuário. É um sistema simples, onde o usuário pode fazer o login de várias maneiras, criar uma nova notícia e publicá-la. A postagem do usuário estará presente no mural de notícias logo após a publicação."
             : "This is a news site open to the user. It is a simple system, where the user can log-in through different ways, create a new news and post it. The user's post will be present on the news wall shortly after it has been posted."}
@@ -127,7 +161,7 @@ const Pofrfolio = ({ translate }) => {
           src={chatApp}
           alt="Chat App Project"
         />
-        <p>
+        <p className="mt-3">
           {translate
             ? "Um projeto simples para chat simultâneo. Creditos para "
             : "A basic Chat App made with ChatEngine. Credits to "}
@@ -173,7 +207,7 @@ const Pofrfolio = ({ translate }) => {
           src={todoApp}
           alt="Chat App Project"
         />
-        <p>
+        <p className="mt-3">
           {translate
             ? "Um projeto simples que valida meus conhecimentos em CRUD, criando, listando, atualizando e deletando um item da lista de tarefas. Foi feito durante o "
             : "This project is a list of tasks in which you can manage your day-to-day duties. It was done with the help of Professor Leonardo Moura Leitão, during the "}
@@ -210,7 +244,7 @@ const Pofrfolio = ({ translate }) => {
           src={eCommerce}
           alt="Chat App Project"
         />
-        <p>
+        <p className="mt-3">
           {translate
             ? "Um projeto básico de ECommerce possuindo todas as fundamentais funcionalidades e mais de um site de compras online, sendo estas o manuseio dos dados das compras feitas pelo usuário, sistema de pagamentos com cartão de crédito, etc. Créditos para "
             : "A basic ECommerce project with all its respective fundamental functionalities and more of an online shopping site, such as Handling the User's Data, Purchases, Payment System, etc. Credits to "}
@@ -256,7 +290,7 @@ const Pofrfolio = ({ translate }) => {
           src={infusionPage}
           alt="Infusion Web Theme"
         />
-        <p>
+        <p className="mt-3">
           {translate
             ? "Um projeto CSS3 feito com a ajuda do Professor Daniel Tapias Morales durante o "
             : "A CSS3 Project made with the help of Professor Daniel Tapias Morales during the "}
@@ -299,22 +333,27 @@ const Pofrfolio = ({ translate }) => {
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
         <div className="image-box-wrapper row justify-content-center">
-          <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
+          <div className="portfolio-image-box" onClick={openPopupboxSerasa}>
+            <img
+              className="portfolio-image"
+              src={serasa}
+              alt="Serasa Project"
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          <div className="portfolio-image-box" onClick={openPopupboxMaterial}>
             <img
               className="portfolio-image"
               src={arcDevelopment}
-              alt="Netflix Clone Project..."
+              alt="Material UI Project"
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
-            <img
-              className="portfolio-image"
-              src={quizPage}
-              alt="City Guide Project..."
-            />
+            <img className="portfolio-image" src={quizPage} alt="Project" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>

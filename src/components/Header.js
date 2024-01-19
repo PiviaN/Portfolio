@@ -9,35 +9,33 @@ const Header = ({ translate, setTranslate }) => {
         <canvas></canvas>
         <h1>
           {translate
-            ? "Desenvolvimento Web com React & Material-UI"
-            : "Web Development with React & Material-UI"}
+            ? "Desenvolvimento FullStack com Tecnologias Web & Mobile"
+            : "FullStack Development with Web & Mobile Technologies"}
         </h1>
         <Typed
           className="typed-text"
           strings={
             translate
               ? [
-                  "Criação de Websites",
+                  "Criação de Websites, APIs e Aplicações Mobile",
                   "Designs de Alta Performance",
                   "Estudante autodidata",
-                  "Proficiência em Inglês e Espanhol",
+                  "Proficiência em Inglês, Espanhol e Francês",
                 ]
               : [
-                  "Website Creation",
+                  "Websites, APIs and Mobile Creations",
                   "High Fidelity Designs",
                   "Self-taught Hardwork Student",
-                  "Proficiency in English and Spanish",
+                  "Proficiency in English, Spanish and French",
                 ]
           }
           typeSpeed={50}
           backSpeed={60}
           loop
         />
-        <Link smooth={true} to="footer" className="btn-main-offer">
-          {translate ? "contato" : "contact me"}
-        </Link>
+
         <button
-          smooth={true}
+          smooth="true"
           to="footer"
           className={
             translate ? "btn-main-reverse-translate" : "btn-main-translate"

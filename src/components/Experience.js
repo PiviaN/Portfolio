@@ -10,28 +10,28 @@ const Experience = ({ translate }) => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2020-2021</h3>
+            <h3>08/2021 - 12/2022 &#40;Opah IT&#41;</h3>
             <p>
               {translate
-                ? "Eu venho estudando e fazendo cursos da Udemy desde Augusto de 2020, Em apenas poucos meses, eu me considero ter aprendido bastante das mais recentes tecnologias do mercado. Recentemente estou procurando pela minha primeira oportunidade de trabalho, para eu poder por a mão na massa, do jeito que tem que ser."
-                : "I have been Programming and doing amazing courses on Udemy since August 2020. In only a few months, i have already learned a lot of technologies. But now i'm looking for my first job, so i can get my hands dirty."}
+                ? "Estágio em Desenvolvimento de Aplicações Web e aprendizado dos fundamentos de Back-End com NestJS"
+                : "Internship in Web Application Development and learning Back-End fundamentals with NestJS"}
             </p>
           </div>
         </div>
         {/* - */}
-        {/* <div className="timeline-block timeline-block-left">
+        <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2014-2015</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-              omnis laboriosam odio deserunt reprehenderit optio cum ratione
-              sequi pariatur deleniti iste perspiciatis officiis minima iusto
-              hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque
-              delectus asperiores et quas qui.
-            </p>
+            <h3>12/2022 - Until now &#40;Olik&#41;</h3>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: translate
+                  ? "Desenvolvimento Front-end focado em Angular. <br /> Aprendizagem dos conceitos e estrutura de negócios do ramo de seguros em geral. <br /> Proposta da Empresa: Insurance as a Service. <br /> Alguns dos clientes trabalhados: Serasa; Chalinga; Juros Baixos."
+                  : "Front-end development focused on Angular. <br /> Learning the concepts and business structure of the insurance industry in general. <br /> Company Proposal: Insurance as a Service. <br /> Some of the clients worked with: Serasa; Chalinga; Juros Baixos",
+              }}
+            />
           </div>
-        </div> */}
+        </div>
         {/* - */}
         {/* <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
