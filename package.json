@@ -12,6 +12,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^4.5.3",
+    "gh-pages": "^6.1.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-popupbox": "^2.0.8",
