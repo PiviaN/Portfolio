@@ -77,17 +77,27 @@ const TestimonialsCarousel = ({ translate }) => {
         </div>
       </>
       <>
-        <img src={avatarCabral} alt="Jane Doe 2" />
+        <img src={avatarVini} alt="Vinícius Borges" />
         <div className="myCarousel">
           <h3>
             {translate
-              ? "Gabriel Cabral - Desenvolvedor Java"
-              : "Gabriel Cabral - Java Developer"}
+              ? "Vinícius Borges - Designer UX/UI"
+              : "Vinícius Borges - UX/UI Designer"}
           </h3>
           <p>
-            {translate
-              ? "Um ótimo desenvolvedor que sabe como trabalhar em equipe e sempre se esforça em melhorar suas habilidades."
-              : "A great developer who knows how to work as a team and strives to improve his skills every day"}
+            O Pedro é um desenvolvedor front-end altamente capacitado, muito
+            detalhista, preocupado com a qualidade do código e também com a
+            experiência do usuário. Ele é uma pessoa que possui muito
+            conhecimento técnico, super colaborativo, aberto a discussões sobre
+            soluções e melhorias na experiência do produto. <br />
+            Além disso, destaco muito a maturidade profissional do Pedro, senso
+            de responsabilidade e habilidade de lidar com todos os requisitos
+            que eram propostos para suas entregas. Foi muito bom trabalhar com o
+            Pedro, ele conseguia deixar todo o processo mais fluido, previsível
+            e eficiente, o que bem é raro e precioso em times de produto. <br />
+            Sem dúvida, é um profissional que eu recomendo fortemente e que
+            adiciona muito valor a qualquer time que combine produto, design e
+            engenharia.
           </p>
         </div>
       </>
