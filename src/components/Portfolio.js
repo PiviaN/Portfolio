@@ -25,25 +25,9 @@ const Pofrfolio = ({ translate }) => {
         />
         <p className="mt-3">
           {translate
-            ? "Um fluxo inteiro de contratação de seguro do cliente Serasa feito por mim e meus companheiros de equipe. "
-            : "An entire insurance contracting flow for the Serasa client done by me and my teammates. "}
-          <a
-            className="hyper-link"
-            href="https://olik.com.br/bolso-protegido/"
-            rel="noreferrer"
-          >
-            Seguro Bolso Protegido - Serasa
-          </a>
+            ? "Um fluxo inteiro de contratação de seguro do cliente Serasa feito por mim e meus companheiros de equipe da Olik. "
+            : "An entire insurance contracting flow for the Serasa client done by me and my teammates from Olik. "}
         </p>
-        <b>{translate ? "Demonstração: " : "Demo: "}</b>
-        <a
-          className="hyper-link"
-          href="https://olik.com.br/bolso-protegido/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          https://olik.com.br/bolso-protegido/
-        </a>
       </>
     );
     PopupboxManager.open({ content });
