@@ -4,8 +4,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 // AVATARS IMPORTS
 import avatarMario from "../images/avatars/avatarMario.jpg";
 import avatarCabral from "../images/avatars/avatarCabral.jpg";
-import avatar3 from "../images/avatars/avatar-3.png";
-import avatar4 from "../images/avatars/avatar-4.png";
+import avatarAlmir from "../images/avatars/avatarAlmir.jpg";
+import avatarRenato from "../images/avatars/avatarRenato.jpg";
+import avatarPedro from "../images/avatars/avatarPedro.jpg";
 
 const TestimonialsCarousel = ({ translate }) => {
   return (
@@ -33,8 +34,8 @@ const TestimonialsCarousel = ({ translate }) => {
         <div className="myCarousel">
           <h3>
             {translate
-              ? "Gabriel - Desenvolvedor Java"
-              : "Gabriel - Java Developer"}
+              ? "Gabriel Cabral - Desenvolvedor Java"
+              : "Gabriel Cabral - Java Developer"}
           </h3>
           <p>
             {translate
@@ -44,24 +45,68 @@ const TestimonialsCarousel = ({ translate }) => {
         </div>
       </>
       <>
-        <img src={avatar3} alt="John Doe 3" />
+        <img src={avatarAlmir} alt="Almir Lima" />
         <div className="myCarousel">
-          <h3>John Doe 3</h3>
+          <h3>Almir Lima - Desenvolvedor Sênior</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            ratione sequi saepe dicta blanditiis, molestias eum excepturi quod
-            fugiat veniam!
+            Tive a oportunidade de trabalhar com o Pedro e posso dizer com
+            tranquilidade que é um excelente desenvolvedor. <br />
+            <br />
+            Durante o tempo em que estivemos na mesma equipe, o Pedro sempre
+            demonstrou muito comprometimento, responsabilidade e vontade de
+            aprender. Atuando como desenvolvedor pleno, ele trabalhou com
+            tecnologias como Vue.js, Nuxt e Angular, sempre entregando soluções
+            bem estruturadas e com qualidade. <br />
+            <br /> Além do conhecimento técnico, o Pedro também se destaca pela
+            colaboração com o time, comunicação clara e proatividade no dia a
+            dia, o que faz muita diferença em qualquer projeto. <br />
+            <br /> Sem dúvida, é um profissional que agrega valor por onde
+            passa. Recomendo fortemente o Pedro Vinicius para novas
+            oportunidades — tenho certeza de que ele fará a diferença na equipe
+            que tiver a sorte de contar com ele.
           </p>
         </div>
       </>
       <>
-        <img src={avatar4} alt="John Doe 4" />
+        <img src={avatarRenato} alt="Renato Cesar Moretto" />
         <div className="myCarousel">
-          <h3>John Doe 4</h3>
+          <h3>Renato Cesar Moretto - Gerente de TI</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            ratione sequi saepe dicta blanditiis, molestias eum excepturi quod
-            fugiat veniam!
+            Trabalhei com Pedro Nepomuceno por cerca de três anos na Olik,
+            período em que acompanhei sua evolução de desenvolvedor júnior para
+            pleno. <br />
+            <br />
+            Pedro se destaca principalmente pela velocidade de entrega e pela
+            capacidade de reproduzir com fidelidade os protótipos e
+            especificações de frontend recebidos. Ao longo de sua atuação,
+            contribuiu no desenvolvimento do frontend de uma plataforma white
+            label para gestão de seguros, além de diferentes jornadas white
+            label e fluxos customizados de contratação, adaptados às
+            necessidades de clientes e parceiros. <br />
+            <br />
+            Nesse contexto, atuou em projetos relacionados a produtos como Bolsa
+            Protegida, Cyber, Viagem e Acidentes Pessoais, demonstrando boa
+            capacidade de transformar requisitos visuais e funcionais em
+            interfaces implementadas com agilidade.
+          </p>
+        </div>
+      </>
+      <>
+        <img src={avatarPedro} alt="Pedro Filipe" />
+        <div className="myCarousel">
+          <h3>Pedro Filipe - Tech Lead</h3>
+          <p>
+            Trabalhei com o Pedro por cerca de um ano, período em que atuei como
+            seu Tech Lead.
+            <br /> <br />
+            Nesse tempo, ele se mostrou um desenvolvedor front-end consistente,
+            com boas entregas e atenção à qualidade do código. Tem boa
+            capacidade de entender os requisitos e traduzi-los em soluções
+            funcionais, mantendo organização e clareza na implementação. <br />
+            <br />
+            No dia a dia, participou bem das discussões técnicas e contribuiu
+            com o time, principalmente quando alinhado sobre as prioridades e
+            expectativas das entregas.
           </p>
         </div>
       </>
