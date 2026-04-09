@@ -19,32 +19,6 @@ const TestimonialsCarousel = ({ translate }) => {
       interval={3000}
     >
       <>
-        <img src={avatarMario} alt="John Doe 1" />
-        <div className="myCarousel">
-          <h3>{translate ? "Professor Mário - TI" : "Mario - IT Professor"}</h3>
-          <p>
-            {translate
-              ? "Um estudante dedicado, cheio de vontade e muito focado nos seus objetivos. Além de ser determinado, nunca desiste quando surge um novo problema."
-              : "A hardworking student, full of goodwill and very focused on achieving his goals. In addition to being very determined, he also never gives up on solving a problem."}
-          </p>
-        </div>
-      </>
-      <>
-        <img src={avatarCabral} alt="Jane Doe 2" />
-        <div className="myCarousel">
-          <h3>
-            {translate
-              ? "Gabriel Cabral - Desenvolvedor Java"
-              : "Gabriel Cabral - Java Developer"}
-          </h3>
-          <p>
-            {translate
-              ? "Um ótimo desenvolvedor que sabe como trabalhar em equipe e sempre se esforça em melhorar suas habilidades."
-              : "A great developer who knows how to work as a team and strives to improve his skills every day"}
-          </p>
-        </div>
-      </>
-      <>
         <img src={avatarAlmir} alt="Almir Lima" />
         <div className="myCarousel">
           <h3>Almir Lima - Desenvolvedor Sênior</h3>
@@ -107,6 +81,32 @@ const TestimonialsCarousel = ({ translate }) => {
             No dia a dia, participou bem das discussões técnicas e contribuiu
             com o time, principalmente quando alinhado sobre as prioridades e
             expectativas das entregas.
+          </p>
+        </div>
+      </>
+      <>
+        <img src={avatarMario} alt="John Doe 1" />
+        <div className="myCarousel">
+          <h3>{translate ? "Professor Mário - TI" : "Mario - IT Professor"}</h3>
+          <p>
+            {translate
+              ? "Um estudante dedicado, cheio de vontade e muito focado nos seus objetivos. Além de ser determinado, nunca desiste quando surge um novo problema."
+              : "A hardworking student, full of goodwill and very focused on achieving his goals. In addition to being very determined, he also never gives up on solving a problem."}
+          </p>
+        </div>
+      </>
+      <>
+        <img src={avatarCabral} alt="Jane Doe 2" />
+        <div className="myCarousel">
+          <h3>
+            {translate
+              ? "Gabriel Cabral - Desenvolvedor Java"
+              : "Gabriel Cabral - Java Developer"}
+          </h3>
+          <p>
+            {translate
+              ? "Um ótimo desenvolvedor que sabe como trabalhar em equipe e sempre se esforça em melhorar suas habilidades."
+              : "A great developer who knows how to work as a team and strives to improve his skills every day"}
           </p>
         </div>
       </>
