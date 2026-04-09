@@ -7,17 +7,6 @@ const Experience = ({ translate }) => {
         <h1>{translate ? "experiência" : "experience"}</h1>
       </div>
       <div className="container experience-wrapper">
-        <div className="timeline-block timeline-block-right">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>08/2021 - 12/2022 &#40;Opah IT&#41;</h3>
-            <p>
-              {translate
-                ? "Estágio em Desenvolvimento de Aplicações Web e aprendizado dos fundamentos de Back-End com NestJS"
-                : "Internship in Web Application Development and learning Back-End fundamentals with NestJS"}
-            </p>
-          </div>
-        </div>
         {/* - */}
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
@@ -59,61 +48,17 @@ const Experience = ({ translate }) => {
           </div>
         </div>
         {/* - */}
-        {/* <div className="timeline-block timeline-block-right">
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2015-2016</h3>
+            <h3>08/2021 - 12/2022 &#40;Opah IT&#41;</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-              omnis laboriosam odio deserunt reprehenderit optio cum ratione
-              sequi pariatur deleniti iste perspiciatis officiis minima iusto
-              hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque
-              delectus asperiores et quas qui.
+              {translate
+                ? "Estágio em Desenvolvimento de Aplicações Web e aprendizado dos fundamentos de Back-End com NestJS"
+                : "Internship in Web Application Development and learning Back-End fundamentals with NestJS"}
             </p>
           </div>
-        </div> */}
-        {/* - */}
-        {/* <div className="timeline-block timeline-block-left">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>2016-2017</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-              omnis laboriosam odio deserunt reprehenderit optio cum ratione
-              sequi pariatur deleniti iste perspiciatis officiis minima iusto
-              hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque
-              delectus asperiores et quas qui.
-            </p>
-          </div>
-        </div> */}
-        {/* - */}
-        {/* <div className="timeline-block timeline-block-right">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>2017-2018</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-              omnis laboriosam odio deserunt reprehenderit optio cum ratione
-              sequi pariatur deleniti iste perspiciatis officiis minima iusto
-              hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque
-              delectus asperiores et quas qui.
-            </p>
-          </div>
-        </div> */}
-        {/* - */}
-        {/* <div className="timeline-block timeline-block-left">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>2018-2020</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-              omnis laboriosam odio deserunt reprehenderit optio cum ratione
-              sequi pariatur deleniti iste perspiciatis officiis minima iusto
-              hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque
-              delectus asperiores et quas qui.
-            </p>
-          </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
