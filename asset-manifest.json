@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8fbf0e1a.chunk.css",
-    "main.js": "/Portfolio/static/js/main.cfaa0d92.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.cfaa0d92.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.80b2d8c3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.80b2d8c3.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.6efdc8da.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6efdc8da.js.map",
     "static/css/2.fa5fdaca.chunk.css": "/Portfolio/static/css/2.fa5fdaca.chunk.css",
@@ -21,7 +21,7 @@
     "static/media/avatarMario.a20c78d5.jpg": "/Portfolio/static/media/avatarMario.a20c78d5.jpg",
     "static/media/App.css": "/Portfolio/static/media/testimonials-bg.75612be7.jpg",
     "static/media/ecommerce-landingpage.c40e700d.png": "/Portfolio/static/media/ecommerce-landingpage.c40e700d.png",
-    "static/media/me.c4033baa.jpg": "/Portfolio/static/media/me.c4033baa.jpg",
+    "static/media/me.b5183252.jpg": "/Portfolio/static/media/me.b5183252.jpg",
     "static/media/quiz-page.c1b09b55.png": "/Portfolio/static/media/quiz-page.c1b09b55.png",
     "static/media/serasa-tela.eb9244da.png": "/Portfolio/static/media/serasa-tela.eb9244da.png",
     "static/media/todo-homepage.414977bf.png": "/Portfolio/static/media/todo-homepage.414977bf.png"
@@ -31,6 +31,6 @@
     "static/css/2.fa5fdaca.chunk.css",
     "static/js/2.5653c497.chunk.js",
     "static/css/main.8fbf0e1a.chunk.css",
-    "static/js/main.cfaa0d92.chunk.js"
+    "static/js/main.80b2d8c3.chunk.js"
   ]
 }
