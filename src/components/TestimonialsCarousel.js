@@ -31,10 +31,6 @@ const TestimonialsCarousel = ({ translate }) => {
             <br /> Além do conhecimento técnico, o Pedro também se destaca pela
             colaboração com o time, comunicação clara e proatividade no dia a
             dia, o que faz muita diferença em qualquer projeto.
-            <br /> Sem dúvida, é um profissional que agrega valor por onde
-            passa. Recomendo fortemente o Pedro Vinicius para novas
-            oportunidades — tenho certeza de que ele fará a diferença na equipe
-            que tiver a sorte de contar com ele.
           </p>
         </div>
       </>
