@@ -23,9 +23,6 @@ const TestimonialsCarousel = ({ translate }) => {
         <div className="myCarousel">
           <h3>Almir Lima - Desenvolvedor Sênior</h3>
           <p>
-            Tive a oportunidade de trabalhar com o Pedro e posso dizer com
-            tranquilidade que é um excelente desenvolvedor.
-            <br />
             Durante o tempo em que estivemos na mesma equipe, o Pedro sempre
             demonstrou muito comprometimento, responsabilidade e vontade de
             aprender. Atuando como desenvolvedor pleno, ele trabalhou com
@@ -46,10 +43,6 @@ const TestimonialsCarousel = ({ translate }) => {
         <div className="myCarousel">
           <h3>Renato Cesar Moretto - Gerente de TI</h3>
           <p>
-            Trabalhei com Pedro Nepomuceno por cerca de três anos na Olik,
-            período em que acompanhei sua evolução de desenvolvedor júnior para
-            pleno.
-            <br />
             Pedro se destaca principalmente pela velocidade de entrega e pela
             capacidade de reproduzir com fidelidade os protótipos e
             especificações de frontend recebidos. Ao longo de sua atuação,
@@ -57,11 +50,6 @@ const TestimonialsCarousel = ({ translate }) => {
             label para gestão de seguros, além de diferentes jornadas white
             label e fluxos customizados de contratação, adaptados às
             necessidades de clientes e parceiros.
-            <br />
-            Nesse contexto, atuou em projetos relacionados a produtos como Bolsa
-            Protegida, Cyber, Viagem e Acidentes Pessoais, demonstrando boa
-            capacidade de transformar requisitos visuais e funcionais em
-            interfaces implementadas com agilidade.
           </p>
         </div>
       </>
@@ -70,9 +58,6 @@ const TestimonialsCarousel = ({ translate }) => {
         <div className="myCarousel">
           <h3>Pedro Filipe - Tech Lead</h3>
           <p>
-            Trabalhei com o Pedro por cerca de um ano, período em que atuei como
-            seu Tech Lead.
-            <br />
             Nesse tempo, ele se mostrou um desenvolvedor front-end consistente,
             com boas entregas e atenção à qualidade do código. Tem boa
             capacidade de entender os requisitos e traduzi-los em soluções
