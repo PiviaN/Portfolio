@@ -50,16 +50,16 @@ const TestimonialsCarousel = ({ translate }) => {
           <h3>Almir Lima - Desenvolvedor Sênior</h3>
           <p>
             Tive a oportunidade de trabalhar com o Pedro e posso dizer com
-            tranquilidade que é um excelente desenvolvedor. <br />
+            tranquilidade que é um excelente desenvolvedor.
             <br />
             Durante o tempo em que estivemos na mesma equipe, o Pedro sempre
             demonstrou muito comprometimento, responsabilidade e vontade de
             aprender. Atuando como desenvolvedor pleno, ele trabalhou com
             tecnologias como Vue.js, Nuxt e Angular, sempre entregando soluções
-            bem estruturadas e com qualidade. <br />
+            bem estruturadas e com qualidade.
             <br /> Além do conhecimento técnico, o Pedro também se destaca pela
             colaboração com o time, comunicação clara e proatividade no dia a
-            dia, o que faz muita diferença em qualquer projeto. <br />
+            dia, o que faz muita diferença em qualquer projeto.
             <br /> Sem dúvida, é um profissional que agrega valor por onde
             passa. Recomendo fortemente o Pedro Vinicius para novas
             oportunidades — tenho certeza de que ele fará a diferença na equipe
@@ -74,7 +74,7 @@ const TestimonialsCarousel = ({ translate }) => {
           <p>
             Trabalhei com Pedro Nepomuceno por cerca de três anos na Olik,
             período em que acompanhei sua evolução de desenvolvedor júnior para
-            pleno. <br />
+            pleno.
             <br />
             Pedro se destaca principalmente pela velocidade de entrega e pela
             capacidade de reproduzir com fidelidade os protótipos e
@@ -82,7 +82,7 @@ const TestimonialsCarousel = ({ translate }) => {
             contribuiu no desenvolvimento do frontend de uma plataforma white
             label para gestão de seguros, além de diferentes jornadas white
             label e fluxos customizados de contratação, adaptados às
-            necessidades de clientes e parceiros. <br />
+            necessidades de clientes e parceiros.
             <br />
             Nesse contexto, atuou em projetos relacionados a produtos como Bolsa
             Protegida, Cyber, Viagem e Acidentes Pessoais, demonstrando boa
@@ -98,11 +98,11 @@ const TestimonialsCarousel = ({ translate }) => {
           <p>
             Trabalhei com o Pedro por cerca de um ano, período em que atuei como
             seu Tech Lead.
-            <br /> <br />
+            <br />
             Nesse tempo, ele se mostrou um desenvolvedor front-end consistente,
             com boas entregas e atenção à qualidade do código. Tem boa
             capacidade de entender os requisitos e traduzi-los em soluções
-            funcionais, mantendo organização e clareza na implementação. <br />
+            funcionais, mantendo organização e clareza na implementação.
             <br />
             No dia a dia, participou bem das discussões técnicas e contribuiu
             com o time, principalmente quando alinhado sobre as prioridades e
