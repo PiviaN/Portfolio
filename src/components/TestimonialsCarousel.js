@@ -3,7 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // AVATARS IMPORTS
 import avatarMario from "../images/avatars/avatarMario.jpg";
-import avatarCabral from "../images/avatars/avatarCabral.jpg";
+import avatarVini from "../images/avatars/avatarVini.jpg";
 import avatarAlmir from "../images/avatars/avatarAlmir.jpg";
 import avatarRenato from "../images/avatars/avatarRenato.jpg";
 import avatarPedro from "../images/avatars/avatarPedro.jpg";
