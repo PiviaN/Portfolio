@@ -17,8 +17,8 @@ const AboutMe = ({ translate }) => {
           <p
             dangerouslySetInnerHTML={{
               __html: translate
-                ? "Meu nome é Pedro Vinícius, tenho 23 anos e sou um programador brasileiro, atuando a mais de 2 anos no mercado. <br /> Tenho algumas habilidades que sempre foquei em minha vida, como a criatividade, foco e resiliência. <br /> Desde meus 14 anos, sou apaixonado por idiomas. Decidi por mim próprio, quando criança, aprender Inglês na Internet, sozinho. E essa vontade de aprender nunca parou."
-                : "My name is Pedro Vinícius, I'm 23 years old and I'm a Brazilian programmer, working in the market for over 2 years. <br /> I have skills that i have always focused on in my life, such as creativity, focus and resilience. <br /> Since I was 14 years old, I have been passionate about languages. I decided for myself, as a child, to learn English on the Internet, alone. And this desire to learn has never stopped.",
+                ? "Meu nome é Pedro Vinícius, tenho 25 anos e sou um desenvolvedor com 4+ anos de experiência construindo aplicações web modernas e escaláveis.<br /> Experiência com arquitetura baseada em componentes, integração com APIs REST e desenvolvimento responsivo. <br /> SKILLS <br /> Frontend: React, Angular, Vue.js, TypeScript, JavaScript (ES6+), HTML5, CSS3 <br /> Backend: Node.js, NestJS, .NET <br /> Mobile: Ionic, React Native <br /> Tools & Workflow: Git, GitLab, Azure DevOps, CI/CD, Agile (Scrum)"
+                : "My name is Pedro Vinícius, I'm 25 years old and I'm a Brazilian developer, working in the market for over 2 years. <br /> I have skills that i have always focused on in my life, such as creativity, focus and resilience. <br /> Since I was 14 years old, I have been passionate about languages. I decided for myself, as a child, to learn English on the Internet, alone. And this desire to learn has never stopped.",
             }}
           ></p>
         </div>
